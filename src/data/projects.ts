@@ -14,54 +14,57 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'ecommerce-platform',
-    title: 'E-Commerce Platform',
-    shortDescription: 'Plataforma de comercio electrónico completa con carrito de compras, pasarela de pago y panel de administración.',
-    image: '/project-placeholder-1.jpg',
-    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Stripe'],
-    problem: 'Las pequeñas empresas necesitaban una solución asequible para vender sus productos online sin depender de plataformas de terceros con altas comisiones.',
-    solution: 'Desarrollé una plataforma e-commerce personalizable que permite a las empresas gestionar su inventario, procesar pagos y analizar ventas desde un único panel.',
-    role: 'Full-Stack Developer - Manejé tanto el frontend (React/TS) como el backend (Node.js/Express), implementé la integración con Stripe y diseñé la base de datos.',
+    id: 'pi-hole-raspberry',
+    title: 'Pi-hole Network-wide Ad Blocker',
+    shortDescription: 'Servidor DNS personalizado en Raspberry Pi que bloquea anuncios y rastreadores a nivel de red para todos los dispositivos.',
+    image: '/pi-hole.png',
+    technologies: ['Bash', 'Docker', 'Raspberry Pi', 'DNS', 'Linux'],
+    problem: 'Los anuncios y rastreadores web afectan la privacidad y velocidad de navegación en todos los dispositivos del hogar, y las soluciones tradicionales requieren configuración individual en cada dispositivo.',
+    solution: 'Implementé Pi-hole en una Raspberry Pi usando Docker y Bash scripts, creando un servidor DNS que filtra peticiones maliciosas y publicitarias a nivel de red, protegiendo automáticamente todos los dispositivos conectados.',
+    role: 'DevOps Engineer - Configuré la Raspberry Pi, containericé Pi-hole con Docker, desarrollé scripts en Bash para automatizar la instalación y mantenimiento, y optimicé las listas de bloqueo.',
     achievements: [
-      'Implementé lazy loading de imágenes que mejoró el tiempo de carga en un 60%',
-      'Optimicé las consultas SQL reduciendo el tiempo de respuesta de la API en un 40%',
-      'Integré un sistema de caché con Redis para mejorar el rendimiento'
+      'Automaticé la instalación completa con scripts Bash reduciendo el tiempo de setup de 2 horas a 10 minutos',
+      'Implementé Docker para facilitar actualizaciones y rollbacks sin afectar el sistema base',
+      'Configuré listas de bloqueo personalizadas que filtran más del 30% del tráfico publicitario',
+      'Reduje el consumo de ancho de banda en un 25% bloqueando contenido no deseado'
     ],
-    demoUrl: 'https://demo-ecommerce.example.com',
-    githubUrl: 'https://github.com/alonsomoros/ecommerce-platform'
+    demoUrl: '',
+    githubUrl: ''
   },
   {
-    id: 'task-manager',
-    title: 'Task Manager Pro',
-    shortDescription: 'Aplicación de gestión de tareas con colaboración en tiempo real, notificaciones y análisis de productividad.',
-    image: '/project-placeholder-2.jpg',
-    technologies: ['React', 'Spring Boot', 'MongoDB', 'WebSocket', 'Docker'],
-    problem: 'Los equipos remotos necesitaban una herramienta que permitiera colaboración en tiempo real y seguimiento de productividad sin complejidad innecesaria.',
-    solution: 'Creé una aplicación de gestión de tareas con actualizaciones en tiempo real usando WebSockets, sistema de notificaciones y dashboards de productividad.',
-    role: 'Full-Stack Developer - Desarrollé el frontend en React, el backend con Spring Boot, implementé WebSockets para tiempo real y configuré Docker para deployment.',
+    id: 'neural-network-framework',
+    title: 'Custom Neural Network Framework',
+    shortDescription: 'Framework de red neuronal desde cero implementado en Java con visualización interactiva en JavaScript para fines educativos.',
+    image: '/neuronal-network.png',
+    technologies: ['Java', 'JavaScript', 'Neural Networks', 'Machine Learning', 'Canvas API'],
+    problem: 'Las librerías de ML existentes son cajas negras que dificultan entender cómo funcionan realmente las redes neuronales, especialmente para estudiantes y desarrolladores que quieren aprender los fundamentos.',
+    solution: 'Desarrollé un framework de red neuronal completamente desde cero en Java, implementando backpropagation, funciones de activación y optimizadores. Añadí una interfaz web en JavaScript para visualizar el entrenamiento en tiempo real.',
+    role: 'Full-Stack ML Developer - Implementé toda la lógica de la red neuronal en Java, desarrollé el frontend de visualización con JavaScript y Canvas API, y diseñé la arquitectura del sistema.',
     achievements: [
-      'Implementé arquitectura de microservicios con Spring Boot mejorando la escalabilidad',
-      'Desarrollé un sistema de notificaciones push en tiempo real con WebSocket',
-      'Containericé la aplicación con Docker reduciendo el tiempo de deployment en un 70%'
+      'Implementé backpropagation desde cero sin usar librerías de ML, logrando 95% de precisión en MNIST',
+      'Desarrollé visualización en tiempo real del proceso de aprendizaje usando Canvas API',
+      'Optimicé el rendimiento con paralelización en Java, reduciendo el tiempo de entrenamiento en un 60%',
+      'Documenté el código extensivamente para uso educativo con más de 500 líneas de comentarios explicativos'
     ],
-    demoUrl: 'https://taskmanager-demo.example.com',
-    githubUrl: 'https://github.com/alonsomoros/task-manager'
+    demoUrl: '',
+    githubUrl: 'https://github.com/alonsomoros/neuronal-network'
   },
   {
-    id: 'weather-dashboard',
-    title: 'Weather Analytics Dashboard',
-    shortDescription: 'Dashboard interactivo de análisis meteorológico con visualizaciones de datos y predicciones basadas en ML.',
-    image: '/project-placeholder-3.jpg',
-    technologies: ['React', 'Python', 'FastAPI', 'MySQL', 'Chart.js', 'Azure'],
-    problem: 'Los agricultores necesitaban acceso a datos meteorológicos históricos y predicciones precisas para planificar sus cultivos de manera más efectiva.',
-    solution: 'Desarrollé un dashboard que consume APIs meteorológicas, procesa datos históricos con Python y presenta visualizaciones interactivas con predicciones.',
-    role: 'Full-Stack Developer - Creé el frontend con React y Chart.js, desarrollé la API con Python/FastAPI, implementé modelos de ML para predicciones y desplegué en Azure.',
+    id: 'text-to-speech-transformer',
+    title: 'Text-to-Speech Transformer',
+    shortDescription: 'Sistema de síntesis de voz basado en arquitectura Transformer implementado con Keras y PyTorch para generar audio natural.',
+    image: '/text-to-speech-transformer.png',
+    technologies: ['Python', 'Keras', 'PyTorch', 'Transformers', 'NLP', 'Audio Processing'],
+    problem: 'Los sistemas TTS tradicionales producen voz robótica y poco natural. Se necesitaba un modelo que generara audio más humano y expresivo usando arquitecturas modernas de deep learning.',
+    solution: 'Implementé un modelo Text-to-Speech basado en arquitectura Transformer usando Keras y PyTorch, entrenado con datasets de voz en español para generar audio natural con prosodia mejorada.',
+    role: 'ML Engineer - Diseñé la arquitectura del modelo Transformer, implementé el pipeline de preprocesamiento de audio, entrené el modelo con datasets personalizados y optimicé la inferencia.',
     achievements: [
-      'Integré múltiples APIs meteorológicas con sistema de fallback automático',
-      'Implementé caché inteligente que redujo las llamadas a APIs externas en un 80%',
-      'Desarrollé modelo de ML con Python que mejoró la precisión de predicciones en un 25%'
+      'Implementé arquitectura Transformer adaptada para síntesis de voz logrando MOS score de 4.2/5',
+      'Desarrollé pipeline de preprocesamiento de audio que reduce ruido y normaliza espectrogramas',
+      'Optimicé el modelo con técnicas de cuantización reduciendo el tamaño en un 70% sin pérdida significativa de calidad',
+      'Integré soporte multilingüe (español e inglés) con transfer learning entre idiomas'
     ],
-    demoUrl: 'https://weather-dashboard.example.com',
-    githubUrl: 'https://github.com/alonsomoros/weather-dashboard'
+    demoUrl: '',
+    githubUrl: 'https://github.com/alonsomoros/Text-Speech_Transformer'
   }
 ];
