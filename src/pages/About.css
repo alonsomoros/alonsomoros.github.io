@@ -1,0 +1,115 @@
+.about-page {
+    min-height: 100vh;
+    padding-top: 100px;
+    background-color: var(--bg-color);
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.about-intro h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, var(--primary-color), #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.about-description {
+    margin-bottom: 4rem;
+}
+
+.about-description p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.soft-skills,
+.hard-skills {
+    margin-bottom: 4rem;
+}
+
+.soft-skills h2,
+.hard-skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.soft-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.soft-skill-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    transition: all 0.3s ease;
+}
+
+.soft-skill-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+}
+
+.soft-skill-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.soft-skill-card p {
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.hard-skills-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.skill-category {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.skill-category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .about-intro h1 {
+        font-size: 2rem;
+    }
+
+    .soft-skills h2,
+    .hard-skills h2 {
+        font-size: 2rem;
+    }
+
+    .soft-skills-grid,
+    .hard-skills-categories {
+        grid-template-columns: 1fr;
+    }
+}

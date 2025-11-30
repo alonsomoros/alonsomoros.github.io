@@ -1,0 +1,18 @@
+.skill-tag {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: 20px;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+    background-color: rgba(59, 130, 246, 0.2);
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+}
