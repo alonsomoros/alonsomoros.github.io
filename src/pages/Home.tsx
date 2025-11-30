@@ -17,7 +17,7 @@ export default function Home() {
             <h1>
               Hola, soy <span className="nombreDestacado">Alonso Moros</span>
             </h1>
-            <p className="subtitle">Desarrollador Full-Stack</p>
+            <p className="subtitle">Ingeniero de Software y Desarrollador Full-Stack</p>
             
             <div className="cv-dropdown-container">
               <button className="btn cv-btn" onClick={() => setShowCvMenu(!showCvMenu)}>
@@ -50,9 +50,14 @@ export default function Home() {
               </a>
             </div>
 
-            <Link to="/projects" className="cta-button">
-              Ver mis proyectos
-            </Link>
+            <div className="cta-buttons">
+              <Link to="/about" className="cta-button cta-primary">
+                Sobre mí
+              </Link>
+              <Link to="/projects" className="cta-button cta-secondary">
+                Ver Proyectos
+              </Link>
+            </div>
           </header>
         </div>
       </div>
