@@ -111,6 +111,18 @@
     transform: translateY(-2px);
 }
 
+.project-link.docs {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 2px solid #8b5cf6;
+}
+
+.project-link.docs:hover {
+    background-color: rgba(139, 92, 246, 0.1);
+    transform: translateY(-2px);
+    border-color: #a78bfa;
+}
+
 .project-sections {
     display: flex;
     flex-direction: column;

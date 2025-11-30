@@ -8,8 +8,9 @@ export interface Project {
   solution: string;
   role: string;
   achievements: string[];
-  demoUrl: string;
-  githubUrl: string;
+  demoUrl?: string;
+  githubUrl?: string;
+  docsUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -28,8 +29,7 @@ export const projects: Project[] = [
       'Configuré listas de bloqueo personalizadas que filtran más del 30% del tráfico publicitario',
       'Reduje el consumo de ancho de banda en un 25% bloqueando contenido no deseado'
     ],
-    demoUrl: '',
-    githubUrl: ''
+    docsUrl: 'https://docs.pi-hole.net/'
   },
   {
     id: 'neural-network-framework',
@@ -46,7 +46,6 @@ export const projects: Project[] = [
       'Optimicé el rendimiento con paralelización en Java, reduciendo el tiempo de entrenamiento en un 60%',
       'Documenté el código extensivamente para uso educativo con más de 500 líneas de comentarios explicativos'
     ],
-    demoUrl: '',
     githubUrl: 'https://github.com/alonsomoros/neuronal-network'
   },
   {
@@ -64,7 +63,6 @@ export const projects: Project[] = [
       'Optimicé el modelo con técnicas de cuantización reduciendo el tamaño en un 70% sin pérdida significativa de calidad',
       'Integré soporte multilingüe (español e inglés) con transfer learning entre idiomas'
     ],
-    demoUrl: '',
     githubUrl: 'https://github.com/alonsomoros/Text-Speech_Transformer'
   }
 ];

@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { FaGithub, FaExternalLinkAlt, FaArrowLeft } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaArrowLeft, FaBook } from 'react-icons/fa';
 import { projects } from '../data/projects';
 import SkillTag from '../components/SkillTag';
 import './ProjectDetail.css';
@@ -32,12 +32,21 @@ export default function ProjectDetail() {
               ))}
             </div>
             <div className="project-links">
-              <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="project-link demo">
-                <FaExternalLinkAlt /> Ver Demo
-              </a>
-              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-link github">
-                <FaGithub /> Ver Código
-              </a>
+              {project.demoUrl && (
+                <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" className="project-link demo">
+                  <FaExternalLinkAlt /> Ver Demo
+                </a>
+              )}
+              {project.githubUrl && (
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-link github">
+                  <FaGithub /> Ver Código
+                </a>
+              )}
+              {project.docsUrl && (
+                <a href={project.docsUrl} target="_blank" rel="noopener noreferrer" className="project-link docs">
+                  <FaBook /> Documentación
+                </a>
+              )}
             </div>
           </div>
         </div>
