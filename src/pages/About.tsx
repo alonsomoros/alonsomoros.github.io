@@ -3,32 +3,36 @@ import './About.css';
 
 export default function About() {
   const hardSkills = {
-    'Frontend': ['React', 'HTML', 'CSS', 'TypeScript', 'JavaScript'],
-    'Backend': ['Java', 'Spring Boot', 'Python', 'Node.js', 'Express'],
-    'BBDD': ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis'],
+    'Frontend': ['React', 'HTML', 'CSS', 'JavaScript'],
+    'Backend': ['Java', 'Spring Boot', 'Python'],
+    'BBDD': ['PostgreSQL', 'MySQL', 'MongoDB', 'H2'],
     'DevOps': ['Git', 'Docker', 'Azure', 'CI/CD', 'Metodologías Ágiles']
   };
 
   const softSkills = [
     {
       name: 'Resolución de Problemas',
-      description: 'Capacidad para analizar situaciones complejas y encontrar soluciones efectivas y creativas.'
+      description: 'Considero ser capaz de analizar situaciones complejas y encontrar soluciones efectivas y creativas.'
     },
     {
       name: 'Trabajo en Equipo',
-      description: 'Colaboración efectiva con equipos multidisciplinarios, compartiendo conocimientos y aprendiendo de otros.'
+      description: 'He compartido experiencias con muchos compañeros y participado en muchos eventos de los cuáles era primordial esta "skill".'
+    },
+    {
+      name: 'Liderazgo',
+      description: 'Junto con el "Trabajo en Equipo", al ser entrenador y haber participado en algunas Hackatones, he demostrado liderazgo en mis proyectos '
     },
     {
       name: 'Comunicación',
-      description: 'Habilidad para explicar conceptos técnicos de manera clara tanto a equipos técnicos como no técnicos.'
+      description: 'Me considero capaz de explicar conceptos técnicos de manera clara tanto a equipos técnicos como no técnicos.'
     },
     {
       name: 'Adaptabilidad',
-      description: 'Flexibilidad para aprender nuevas tecnologías y adaptarse rápidamente a cambios en proyectos.'
+      description: 'Creo que tengo una buena flexibilidad para aprender nuevas tecnologías y adaptarse rápidamente a cambios en proyectos.'
     },
     {
       name: 'Gestión del Tiempo',
-      description: 'Organización efectiva de tareas y prioridades para cumplir con deadlines sin comprometer la calidad.'
+      description: 'Tengo una buena organización efectiva de tareas y prioridades para cumplir con deadlines sin comprometer la calidad.'
     }
   ];
 
@@ -39,24 +43,24 @@ export default function About() {
           <h1>Sobre mí</h1>
           <div className="about-description">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Soy un desarrollador curioso y con hambre de conocimiento, actualmente tengo muchos proyectos en mente que iré actualizando en este portfolio cuando pueda.
+              Mi objetivo es hacer investigar y trastear lo máximo que pueda con todo lo que encuentre para seguir aprendiendo y creciendo.
+              Es por eso que he participado en Hackatones (véase mi LinkedIn) y proyectos de código abierto para aprender y mejorar mis habilidades.
             </p>
             <p>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut 
-              perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
-              quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              Me gusta el desarrollo de software, especialmente el backend y el análisis de datos. He tenido experiencias con manejo de varias bases de datos como PostgreSQL, MySQL y MongoDB.
+              He trabajado con tecnologías como Java, Spring Boot y React. Y cosas más concretas como Liquibase o JPA. He trabajado con varias metodologías ágiles como Scrum y Kanban.
+              Y por lo menos todos los días uso Bash y Git para gestionar mis proyectos.
             </p>
             <p>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui 
-              ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci 
-              velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+              Otras de mis ambiciones es la arquitectura software, el análisis de proyectos y el análisis de código. 
+              He participado en varios proyectos y mejorado su cobertura con test unitarios y de integración, y en varios niveles de la arquitectura.
+              También he usado tecnologías como JUnit, Mockito, Jacoco y SonarQube para mejorar la calidad del código.
             </p>
             <p>
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
-              consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel 
-              illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+              Por último, un poco sobre mí, me gusta el deporte, la música, las novelas scifi y la naturaleza. 
+              Tengo un perro llamado Obi y he sido entrenador de baloncesto durante 3 años, llegando a ser campeones de nuestra liga.
+              Y toco el piano de forma autodidacta en mis ratos libres.
             </p>
           </div>
         </section>
