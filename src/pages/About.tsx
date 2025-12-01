@@ -44,7 +44,7 @@ export default function About() {
           <div className="about-description">
             <p>
               Soy un desarrollador curioso y con hambre de conocimiento, actualmente tengo muchos proyectos en mente que iré actualizando en este portfolio cuando pueda.
-              Mi objetivo es hacer investigar y trastear lo máximo que pueda con todo lo que encuentre para seguir aprendiendo y creciendo.
+              Mi objetivo es crear, investigar y trastear lo máximo que pueda con todo lo que encuentre para seguir aprendiendo y creciendo.
               Es por eso que he participado en Hackatones (véase mi LinkedIn) y proyectos de código abierto para aprender y mejorar mis habilidades.
             </p>
             <p>
@@ -53,12 +53,12 @@ export default function About() {
               Y por lo menos todos los días uso Bash y Git para gestionar mis proyectos.
             </p>
             <p>
-              Otras de mis ambiciones es la arquitectura software, el análisis de proyectos y el análisis de código. 
+              Otras de mis ambiciones es la arquitectura software, el análisis de proyectos y el análisis de código.
               He participado en varios proyectos y mejorado su cobertura con test unitarios y de integración, y en varios niveles de la arquitectura.
               También he usado tecnologías como JUnit, Mockito, Jacoco y SonarQube para mejorar la calidad del código.
             </p>
             <p>
-              Por último, un poco sobre mí, me gusta el deporte, la música, las novelas scifi y la naturaleza. 
+              Por último, un poco sobre mí, me gusta el deporte, la música, las novelas scifi y la naturaleza.
               Tengo un perro llamado Obi y he sido entrenador de baloncesto durante 3 años, llegando a ser campeones de nuestra liga.
               Y toco el piano de forma autodidacta en mis ratos libres.
             </p>
