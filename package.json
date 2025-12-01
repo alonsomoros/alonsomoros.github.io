@@ -1,5 +1,5 @@
 {
-  "name": "alonsomoros.web",
+  "name": "alonsomoros.github.io",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alonsomoros/alonsomoros.web.git"
+    "url": "git+https://github.com/alonsomoros/alonsomoros.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alonsomoros/alonsomoros.web/issues"
+    "url": "https://github.com/alonsomoros/alonsomoros.github.io/issues"
   },
-  "homepage": "https://github.com/alonsomoros/alonsomoros.web#readme",
+  "homepage": "https://github.com/alonsomoros/alonsomoros.github.io#readme",
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
