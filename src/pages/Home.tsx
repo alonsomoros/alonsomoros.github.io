@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaChevronDown, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaChevronDown, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import bgImage from '../assets/b1.jpg';
@@ -18,7 +18,7 @@ export default function Home() {
               Hola, soy <span className="nombreDestacado">Alonso Moros</span>
             </h1>
             <p className="subtitle">Ingeniero de Software y Desarrollador Full-Stack</p>
-            
+
             <div className="cv-dropdown-container">
               <button className="btn cv-btn" onClick={() => setShowCvMenu(!showCvMenu)}>
                 <FaDownload /> Descargar CV <FaChevronDown className={`chevron ${showCvMenu ? 'rotate' : ''}`} />
@@ -47,6 +47,9 @@ export default function Home() {
               </a>
               <a href="https://www.instagram.com/aalonn_11_mv/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram />
+              </a>
+              <a href="https://wa.me/34625375615" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <FaWhatsapp />
               </a>
             </div>
 
