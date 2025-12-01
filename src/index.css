@@ -87,7 +87,7 @@
   display: flex;
   gap: 1.5rem;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 
 .social-icon {
@@ -203,12 +203,20 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .header {
+    padding-top: 2rem;
+  }
+
   .header h1 {
     font-size: 2.5rem;
   }
 
   .subtitle {
     font-size: 1.25rem;
+  }
+
+  .social-icons {
+    margin-top: 1.5rem;
   }
 }
 
