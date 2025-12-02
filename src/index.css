@@ -145,6 +145,36 @@ body.light-theme .cv-menu-item:hover {
   transform: translateY(-3px);
 }
 
+.social-icon.github:hover {
+  color: #3c3c3c;
+}
+
+.social-icon.linkedin:hover {
+  color: #0a66c2;
+}
+
+.social-icon.whatsapp:hover {
+  color: #25D366;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.contact a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
 /* CV Button & Dropdown */
 .cv-dropdown-container {
   position: relative;
