@@ -3,6 +3,9 @@ export interface Project {
   title: string;
   shortDescription: string;
   image: string;
+  year: number;
+  category: string;
+  featured?: boolean;
   technologies: string[];
   problem: string;
   solution: string;
@@ -19,6 +22,9 @@ export const projects: Project[] = [
     title: 'Pi-hole Network-wide Ad Blocker',
     shortDescription: 'Servidor DNS personalizado en Raspberry Pi que bloquea anuncios y rastreadores a nivel de red para todos los dispositivos.',
     image: '/pi-hole.png',
+    year: 2024,
+    category: 'Infraestructura',
+    featured: true,
     technologies: ['Bash', 'Docker', 'Raspberry Pi', 'DNS', 'Linux'],
     problem: 'Los anuncios y rastreadores web afectan la privacidad y velocidad de navegación en todos los dispositivos del hogar, y las soluciones tradicionales requieren configuración individual en cada dispositivo.',
     solution: 'Implementé Pi-hole en una Raspberry Pi usando Docker y Bash scripts, creando un servidor DNS que filtra peticiones maliciosas y publicitarias a nivel de red, protegiendo automáticamente todos los dispositivos conectados.',
@@ -36,6 +42,9 @@ export const projects: Project[] = [
     title: 'Custom Neural Network Framework',
     shortDescription: 'Framework de red neuronal desde cero implementado en Java con visualización interactiva en JavaScript para fines educativos.',
     image: '/neuronal-network.png',
+    year: 2025,
+    category: 'Machine Learning',
+    featured: true,
     technologies: ['Java', 'JavaScript', 'Neural Networks', 'Machine Learning', 'Canvas API'],
     problem: 'Las librerías de ML existentes son cajas negras que dificultan entender cómo funcionan realmente las redes neuronales, especialmente para estudiantes y desarrolladores que quieren aprender los fundamentos.',
     solution: 'Desarrollé un framework de red neuronal completamente desde cero en Java, implementando backpropagation, funciones de activación y optimizadores. Añadí una interfaz web en JavaScript para visualizar el entrenamiento en tiempo real.',
@@ -53,6 +62,9 @@ export const projects: Project[] = [
     title: 'Text-to-Speech Transformer',
     shortDescription: 'Sistema de síntesis de voz basado en arquitectura Transformer implementado con Keras y PyTorch para generar audio natural.',
     image: '/text-to-speech-transformer.png',
+    year: 2025,
+    category: 'IA Aplicada',
+    featured: false,
     technologies: ['Python', 'Keras', 'PyTorch', 'Transformers', 'NLP', 'Audio Processing'],
     problem: 'Los sistemas TTS tradicionales producen voz robótica y poco natural. Se necesitaba un modelo que generara audio más humano y expresivo usando arquitecturas modernas de deep learning.',
     solution: 'Implementé un modelo Text-to-Speech basado en arquitectura Transformer usando Keras y PyTorch, entrenado con datasets de voz en español para generar audio natural con prosodia mejorada.',

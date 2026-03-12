@@ -59,6 +59,12 @@ export default function Home() {
               <Link to="/projects" className="cta-button cta-secondary">
                 Ver Proyectos
               </Link>
+              <Link to="/hackathons" className="cta-button cta-tertiary">
+                Ver Hackatones
+              </Link>
+              <Link to="/achievements" className="cta-button cta-quaternary">
+                Ver Logros
+              </Link>
             </div>
           </header>
         </div>

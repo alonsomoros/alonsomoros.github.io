@@ -1,7 +1,10 @@
 .projects-page {
     min-height: 100vh;
     padding-top: 100px;
-    background-color: var(--bg-color);
+    background:
+        radial-gradient(circle at 8% 8%, rgba(59, 130, 246, 0.12), transparent 30%),
+        radial-gradient(circle at 90% 16%, rgba(14, 165, 233, 0.12), transparent 34%),
+        var(--bg-color);
 }
 
 .projects-container {
@@ -24,6 +27,66 @@
     color: var(--text-muted);
     margin-bottom: 3rem;
     max-width: 800px;
+}
+
+.projects-toolbar {
+    background-color: rgba(30, 41, 59, 0.55);
+    border: 1px solid rgba(59, 130, 246, 0.22);
+    border-radius: 14px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(6px);
+}
+
+.projects-toolbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-count {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.projects-search {
+    width: min(100%, 420px);
+    background-color: var(--card-bg);
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    border-radius: 999px;
+    color: var(--text-color);
+    padding: 0.75rem 1rem;
+    outline: none;
+}
+
+.projects-search:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.18);
+}
+
+.category-filters {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.category-filter {
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text-muted);
+    padding: 0.45rem 0.9rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.category-filter:hover,
+.category-filter.active {
+    color: white;
+    border-color: transparent;
+    background: linear-gradient(135deg, var(--primary-color), #06b6d4);
 }
 
 .projects-grid {
@@ -107,6 +170,23 @@
     color: var(--text-color);
 }
 
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-meta span {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #93c5fd;
+    background-color: rgba(59, 130, 246, 0.15);
+    padding: 0.28rem 0.6rem;
+    border-radius: 999px;
+}
+
 .project-description {
     color: var(--text-muted);
     line-height: 1.6;
@@ -121,9 +201,24 @@
     gap: 0.1rem;
 }
 
+.projects-empty-state {
+    margin-top: 1.5rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .projects-container h1 {
         font-size: 2rem;
+    }
+
+    .projects-toolbar-top {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .projects-search {
+        width: 100%;
     }
 
     .projects-grid {

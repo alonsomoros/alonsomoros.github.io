@@ -25,6 +25,10 @@ export default function ProjectDetail() {
           </div>
           <div className="project-hero-content">
             <h1>{project.title}</h1>
+            <div className="project-hero-meta">
+              <span>{project.category}</span>
+              <span>{project.year}</span>
+            </div>
             <p className="project-hero-description">{project.shortDescription}</p>
             <div className="project-hero-technologies">
               {project.technologies.map((tech, index) => (

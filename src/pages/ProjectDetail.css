@@ -58,6 +58,23 @@
     background-clip: text;
 }
 
+.project-hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.project-hero-meta span {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 0.8rem;
+    color: #93c5fd;
+    background-color: rgba(59, 130, 246, 0.16);
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+}
+
 .project-hero-description {
     font-size: 1.25rem;
     color: var(--text-muted);

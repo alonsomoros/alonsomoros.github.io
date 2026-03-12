@@ -67,6 +67,24 @@ export default function Navbar() {
               Proyectos
             </Link>
           </li>
+          <li>
+            <Link
+              to="/hackathons"
+              className={`navbar-link ${isActive('/hackathons') ? 'active' : ''}`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Hackatones
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/achievements"
+              className={`navbar-link ${isActive('/achievements') ? 'active' : ''}`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Logros
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
