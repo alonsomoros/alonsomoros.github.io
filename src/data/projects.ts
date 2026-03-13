@@ -76,5 +76,45 @@ export const projects: Project[] = [
       'Integré soporte multilingüe (español e inglés) con transfer learning entre idiomas'
     ],
     githubUrl: 'https://github.com/alonsomoros/Text-Speech_Transformer'
+  },
+  {
+    id: 'hartz-gym-routines-app',
+    title: 'Hartz',
+    shortDescription: 'Aplicación de gimnasio y rutinas con histórico y control de progreso.',
+    image: '/logo_hartz.png',
+    year: 2025,
+    category: 'Full-Stack',
+    featured: true,
+    technologies: ['Java', 'REST API', 'PostgreSQL', 'MongoDB', 'AWS Cognito', 'React', 'TypeScript'],
+    problem: 'Las apps de entrenamiento suelen quedarse cortas en personalización de rutinas, seguimiento del progreso o gestión segura de usuarios. Queríamos una solución propia que permitiera estructurar entrenamientos, guardar historial y separar bien la información relacional de la documental.',
+    solution: 'Desarrollé, junto con unos amigos de universidad, Hartz como una aplicación full-stack con backend Java expuesto como API REST, frontend en React con TypeScript y autenticación con AWS Cognito. Utilizamos PostgreSQL para la información estructurada de usuarios y rutinas, y MongoDB para almacenar registros más flexibles de sesiones, progreso y datos evolutivos.',
+    role: 'Full-Stack Developer - Diseñamos la arquitectura completa, implementamos la API REST en Java, modelamos la persistencia entre PostgreSQL y MongoDB, integramos AWS Cognito para autenticación y construimos la interfaz en React con TypeScript.',
+    achievements: [
+      'Ayudé a decidir qué tipo de base de datos era la mejor, y como sería el modelo de entidades',
+      'Aprendí sobre el funcionamiento de API Rest y cómo manejar llamadas complejas end-to-end',
+      'Construimos una interfaz en React y TypeScript orientada a crear, editar y consultar rutinas de forma rápida',
+      'Estructuramos unos workflows para mejorar CICD y desplegamos la aplicación en una raspeberrypi'
+    ],
+    githubUrl: 'https://github.com/UnaiMurilloMesa/HARTZ_CO'
+  },
+  {
+    id: 'morning-briefing-n8n',
+    title: 'Morning Briefing',
+    shortDescription: 'Sistema automatizado de morning briefing construido con n8n para centralizar información diaria resumida.',
+    image: '/morning_briefing.png',
+    year: 2026,
+    category: 'Automatización',
+    featured: false,
+    technologies: ['n8n', 'Automation', 'APIs', 'Scheduling', 'Notifications'],
+    problem: 'Consultar cada mañana noticias, tareas, eventos o fuentes dispersas consume tiempo y fragmenta la atención. Hacía falta un flujo automático que reuniera la información relevante en un único briefing diario.',
+    solution: 'Construí un sistema de automatización con n8n que recopila información desde distintas fuentes, la transforma en un resumen estructurado y la envía en el formato más útil para empezar el día con contexto claro y prioridades visibles.',
+    role: 'Automation Builder - Diseñé los flujos en n8n, conecté APIs y orígenes de información, definí la lógica de transformación de datos y preparé la entrega automática del briefing diario.',
+    achievements: [
+      'Automaticé la recopilación de información diaria desde múltiples fuentes en un único flujo reproducible',
+      'Diseñé nodos de transformación para convertir datos heterogéneos en un briefing legible y accionable',
+      'Reduje el tiempo manual de revisión matinal centralizando tareas, contexto y avisos en una sola salida',
+      'Dejé la automatización preparada para ampliar integraciones futuras con correo, calendario, Slack o WhatsApp'
+    ],
+    docsUrl: 'https://forms.gle/TDvAmu3W5egzT5ZR8'
   }
 ];
