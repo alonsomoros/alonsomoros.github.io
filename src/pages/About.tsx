@@ -3,10 +3,10 @@ import './About.css';
 
 export default function About() {
   const hardSkills = {
-    'Frontend': ['React', 'HTML', 'CSS', 'JavaScript'],
-    'Backend': ['Java', 'Spring Boot', 'Python'],
+    'Frontend': ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Axios'],
+    'Backend': ['Java', 'Spring Boot', 'Python', 'Requests', 'Mockito', 'JUnit', 'JPA'],
     'BBDD': ['PostgreSQL', 'MySQL', 'MongoDB', 'H2'],
-    'DevOps': ['Git', 'Docker', 'Azure', 'CI/CD', 'Metodologías Ágiles']
+    'DevOps': ['Git', 'Docker', 'Azure', 'CI/CD', 'Metodologías Ágiles', 'SonarQube', 'Liquibase', 'Jacoco']
   };
 
   const softSkills = [

@@ -30,7 +30,7 @@
 }
 
 .projects-toolbar {
-    background-color: rgba(30, 41, 59, 0.55);
+    background-color: var(--card-bg);
     border: 1px solid rgba(59, 130, 246, 0.22);
     border-radius: 14px;
     padding: 1rem;
@@ -99,7 +99,7 @@
     background-color: var(--card-bg);
     border-radius: 12px;
     overflow: hidden;
-    border: 1px solid rgba(59, 130, 246, 0.1);
+    border: 2px solid rgba(13, 50, 109, 0.3);
     transition: all 0.3s ease;
     text-decoration: none;
     color: inherit;

@@ -19,7 +19,7 @@
 
 .achievements-header h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;;
     background: linear-gradient(135deg, var(--primary-color), #0ea5e9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -27,7 +27,6 @@
 }
 
 .achievements-header p {
-    max-width: 860px;
     color: var(--text-muted);
     font-size: 1.125rem;
     line-height: 1.8;
@@ -42,7 +41,7 @@
 .achievement-card {
     background-color: var(--card-bg);
     border-radius: 16px;
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(231, 167, 29, 0.74);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -111,6 +110,7 @@
     text-transform: uppercase;
     padding: 0.35rem 0.7rem;
     border-radius: 999px;
+    border: 1px solid rgba(44, 98, 214, 0.2);
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;

@@ -14,7 +14,7 @@ export default function Achievements() {
         <header className="achievements-header">
           <h1>Logros</h1>
           <p>
-            Aquí iré añadiendo hitos personales, deportivos, académicos y tecnológicos para documentar avances reales con contexto.
+            Aquí iré añadiendo logros de cualquier tipo que vaya cumpliendo, quizás hasta sirva de motivación para muchos ;)
           </p>
         </header>
 
