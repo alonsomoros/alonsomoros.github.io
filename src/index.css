@@ -38,7 +38,7 @@ body.light-theme {
 }
 
 body.light-theme .hero-overlay {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.80);
 }
 
 body.light-theme .navbar {
@@ -74,28 +74,16 @@ body.light-theme .cv-menu-item:hover {
 }
 
 /* Hero */
-.hero {
-  height: 100vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.hero-overlay {
-  background-color: rgba(15, 23, 42, 0.7);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  transition: background-color 0.3s ease;
+.hero, .hero-overlay {
+    min-height: 100vh; 
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Header */
@@ -113,6 +101,7 @@ body.light-theme .cv-menu-item:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 1rem;
+  margin-top: 5rem;
 }
 
 .nombreDestacado {
@@ -278,7 +267,7 @@ body.light-theme .cv-menu-item:hover {
 /* Responsive */
 @media (max-width: 768px) {
   .header {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .header h1 {
