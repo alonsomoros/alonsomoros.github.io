@@ -45,9 +45,11 @@ export default function Hackathons() {
               </p>
 
               <div className="hackathon-details">
-                <p><strong>Rol:</strong> {hackathon.role}</p>
-                <p><strong>Ubicación:</strong> {hackathon.location}</p>
-                <p className="hackathon-achievement"><FaMedal /> {hackathon.achievement}</p>
+                <p><strong  style={{ color: 'var(--primary-color)' }}>Rol:</strong> {hackathon.role}</p>
+                <p><strong style={{ color: 'var(--primary-color)' }}>Ubicación:</strong> {hackathon.location}</p>
+                <p className="hackathon-achievement" style={{ color: '#ebb645da' }}>
+                  <FaMedal /> {hackathon.achievement}
+                </p>
               </div>
 
               <p className="hackathon-summary">{hackathon.summary}</p>

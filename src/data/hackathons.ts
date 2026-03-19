@@ -58,12 +58,13 @@ export const hackathons: Hackathon[] = [
     name: 'Next Digital v2.0',
     year: 2026,
     role: 'Apis + Web Developer',
-    theme: 'Campus Sostenible',
+    theme: 'Alerta Meteorológica',
     location: 'ETSISI Campus Sur, Vallecas, Madrid',
-    projectName: 'Campus Sostenible - Antimadrugones v2.0',
-    stack: ['React', 'Javascript', 'Vite', 'ApiRest', 'Tailwind CSS'],
-    achievement: 'Proximamente',
-    summary: 'Proximamente...',
-    demoUrl: 'https://github.com/alonsomoros'
+    projectName: 'MeteoAlert - Antimadrugones v2.0',
+    stack: ['React', 'JS', 'Vite', 'ApiRest', 'PostgreSQL', 'OAuth2.0', 'Docker', 'Supabase', 'Vercel'],
+    achievement: '¡1er Puesto!',
+    summary: 'Construimos en medio día una aplicación web funcional y desplegada para alertar a usuarios sobre alertas meteorológicas, consimiendo 2 apis que nos proporcionaban y se requería Login con OAuth2.0 y una base de datos sólida para históricos y dashboards.',
+    repoUrl: 'https://github.com/juanlu-ms/hackaton-upm-2026',
+    demoUrl: 'https://hackaton-upm-2026.vercel.app'
   }
 ];
