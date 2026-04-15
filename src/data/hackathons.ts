@@ -51,7 +51,6 @@ export const hackathons: Hackathon[] = [
     stack: ['Trello', 'Canvas', 'PowerPoint', 'Miro', 'IA'],
     achievement: 'Certificado',
     summary: 'Construimos una solución para optimizar rutas y reducir congestión con una IA que gestiona datos e imagenes públicas de las carreteras.',
-    repoUrl: 'https://github.com/alonsomoros'
   },
   {
     id: 'nextDigital-2026',
