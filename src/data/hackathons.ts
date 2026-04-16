@@ -65,5 +65,19 @@ export const hackathons: Hackathon[] = [
     summary: 'Construimos en medio día una aplicación web funcional y desplegada para alertar a usuarios sobre alertas meteorológicas, consimiendo 2 apis que nos proporcionaban y se requería Login con OAuth2.0 y una base de datos sólida para históricos y dashboards.',
     repoUrl: 'https://github.com/juanlu-ms/hackaton-upm-2026',
     demoUrl: 'https://hackaton-upm-2026.vercel.app'
+  },
+  {
+    id: 'ilunion-2026',
+    name: 'Ilunion - Hunger4Innovation',
+    year: 2026,
+    role: 'Proximamente...',
+    theme: 'Proximamente...',
+    location: 'Torre Ilunion, Madrid',
+    projectName: 'The Walking Deadlocks',
+    stack: ['Proximamente...'],
+    achievement: 'Proximamente...',
+    summary: '',
+    repoUrl: '',
+    demoUrl: '',
   }
 ];
