@@ -1,5 +1,6 @@
 import heroBackground from '../assets/b1.jpg';
 import hackatonND from '../assets/hackaton_next_digital_2.jpg';
+import hackatonIlunion from '../assets/hackaton_ilunion.jpg';
 import cs2017 from '../assets/CS_2017.png';
 import cs2018 from '../assets/CS_2018.png';
 import cs2022 from '../assets/CS_2022.png';
@@ -120,6 +121,17 @@ export const achievements: Achievement[] = [
     milestone: '1er Puesto',
     summary: 'Construimos en medio día una aplicación web funcional y desplegada para alertar a usuarios sobre alertas meteorológicas, consimiendo unas apis que nos proporcionaban y se requería Login con OAuth2.0 y una base de datos sólida para históricos y dashboards.',
     hoverImage: hackatonND
+  },
+  {
+    id: 'hackaton-ilunion-2026',
+    title: 'Hackathon Ilunion 2026',
+    organization: 'Ilunion',
+    location: 'Madrid, Torre Ilunion',
+    year: 2026,
+    category: 'Personal',
+    milestone: '1er Puesto',
+    summary: 'Construimos en medio día dos aplicaciones completas y funcionales para ayudar a dos organizaciones con la organización de plantillas de horarios para un hospital y otra para la gestión de personal y de tareas en distintas operativas de varias localizaciones, teniendo que presentarlo frente a jueces.',
+    hoverImage: hackatonIlunion
   },
   {
     id: 'certificacion-trinity-b2-2017',
