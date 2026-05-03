@@ -11,6 +11,7 @@ export interface Hackathon {
   summary: string;
   repoUrl?: string;
   demoUrl?: string;
+  demoUrl2?: string;
 }
 
 export const hackathons: Hackathon[] = [
@@ -70,14 +71,15 @@ export const hackathons: Hackathon[] = [
     id: 'ilunion-2026',
     name: 'Ilunion - Hunger4Innovation',
     year: 2026,
-    role: 'Proximamente...',
-    theme: 'Proximamente...',
+    role: 'Full-Stack Developer',
+    theme: 'Gestión de horarios y tareas en operativas',
     location: 'Torre Ilunion, Madrid',
     projectName: 'The Walking Deadlocks',
-    stack: ['Proximamente...'],
-    achievement: 'Proximamente...',
-    summary: '',
+    stack: ['React', 'JS', 'Vite', 'ApiRest', 'PostgreSQL', 'Supabase', 'Vercel', 'Lovable', 'Excel'],
+    achievement: '¡1er Puesto!',
+    summary: 'Construimos dos aplicaciones para resolver dos retos distintos en menos de 1 día, una para gestionar horarios de personal de hospitales y otra para gestionar tareas varias en operativas, ambas con dashboards de métricas y gestión de datos.',
     repoUrl: '',
-    demoUrl: '',
+    demoUrl: 'https://hospital-squad-planner.lovable.app',
+    demoUrl2: 'https://opera-people.lovable.app'
   }
 ];

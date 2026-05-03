@@ -71,6 +71,11 @@ export default function Hackathons() {
                     <FaExternalLinkAlt /> Demo
                   </a>
                 )}
+                {hackathon.demoUrl2 && (
+                  <a href={hackathon.demoUrl2} target="_blank" rel="noopener noreferrer" className="hackathon-link secondary">
+                    <FaExternalLinkAlt /> Demo
+                  </a>
+                )}
               </div>
             </article>
           ))}
