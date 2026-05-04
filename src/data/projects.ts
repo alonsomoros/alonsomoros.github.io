@@ -72,6 +72,35 @@ export const projects: Project[] = [
     demoUrl: "https://el-negredo.vercel.app/",
   },
   {
+    id: "inazuma-randomizer",
+    title: "Inazuma Randomizer",
+    shortDescription:
+      "Randomizador de personajes para el juego Inazuma Eleven - Victory Road. Con enciclopedia de personajes con filtros.",
+    image: "/inazuma_randomizer.png",
+    year: 2025,
+    category: "Web",
+    featured: false,
+    technologies: [
+      "React",
+      "TypeScript",
+      "Excel",
+      "Docker"
+    ],
+    problem:
+      "Hay personas que les gusta añadir un reto a sus sesiones de juego, uno de los retos más comunes es ir pillando personajes al azar y hacerse un equipo.",
+    solution:
+      "Por lo que esta web permite coger personajes al azar y ver su información, además tiene una enciclopedia de personajes con filtros para poder consultar la información de cada personaje y ver sus estadísticas, habilidades, etc.",
+    role: "Frontend Developer - Diseñé y desarrollé la interfaz de usuario utilizando React, TypeScript y Tailwind CSS, integrando una base de datos de personajes y desplegándolo en mi Raspberry Pi con Docker.",
+    achievements: [
+      "Conseguí desplegar un randomizador de personajes para el juego Inazuma Eleven con un frontend moderno responsive y fácil de usar",
+      "Conseguí hacer una ETL que pilla los personajes de un Excel, los transforma y los sube a una base de datos para usarlos",
+      "Conseguí hacer una API para conseguir los personajes de la base de datos y mostrarlos en el frontend",
+      "Conseguí optimizar y desplegar la aplicación en una Raspberry Pi usando Docker para que esté disponible desde cualquier parte",
+    ],
+    githubUrl: "https://github.com/alonsomoros/inazuma-player-randomizer",
+    demoUrl: "https://inazuma-randomizer.duckdns.org/",
+  },
+  {
     id: "pi-hole-raspberry",
     title: "Pi-hole Network-wide Ad Blocker",
     shortDescription:
